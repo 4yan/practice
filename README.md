@@ -3,7 +3,7 @@
 ## todolist
 
 ![](./todoList/todoList.gif)
-![](./todoListtodoList2.gif)
+![](./todoList/todoList2.gif)
 
 
 ## 照片墙
