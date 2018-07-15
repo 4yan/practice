@@ -2,8 +2,8 @@
 
 ## todolist
 
-![](./todoList/todoList.gif)
-![](./todoList/todoList2.gif)
+![](./todolist/todoList.gif)
+![](./todolist/todoList2.gif)
 
 
 ## 照片墙
