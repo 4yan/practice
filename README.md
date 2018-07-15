@@ -2,11 +2,11 @@
 
 ## todoList
 
-![](./pic/todoList.gif)
-![](./pic/todoList2.gif)
+![1](./pic/todoList.gif)
+![2](./pic/todoList2.gif)
 
 
-![](./pic/slidePic.gif)
+![3](./pic/slidePic.gif)
 ----------------------------------------
 ## 照片墙
 利用cearte-react-app完成
@@ -17,8 +17,8 @@ yarn install  (安装依赖包)
 
 yarn start (运行本地开发环境)
 
-![](./pic/picWall.gif)
+![4](./pic/picWall.gif)
 ----------------------------------------
 
-![](./pic/spider.gif)
-![](./pic/echarts.gif)
+![5](./pic/spider.gif)
+![6](./pic/echarts.gif)
