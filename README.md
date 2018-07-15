@@ -2,8 +2,8 @@
 
 ### todolist
 
-![name](./todolist.gif '描述')
-![name](./todolist2.gif '描述')
+![name](./todoList./todoList.gif '描述')
+![name](./todoList./todoList2.gif '描述')
 
 
 ### 照片墙
@@ -15,4 +15,4 @@ yarn install  (安装依赖包)
 
 yarn start (运行本地开发环境)
 
-![Alt text](picWall.gif)
+![Alt text](./picWall./picWall.gif)
