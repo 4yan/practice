@@ -1,0 +1,215 @@
+body {
+    background-color: #e8edef;
+    width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    width: 500px;
+    margin: 0 auto;
+    height: 80px;
+    padding: 15px;
+    background-color: #92b7a6;
+    box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header input {
+    width: 100%;
+    height: 50px;
+    float: left;
+    color: #fff;
+    padding: 0px 60px 0 18px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+}
+
+header input::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgba(255, 255, 255, 0.75);
+}
+
+header button {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -49px;
+    right: -420px;
+    z-index: 2;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer
+}
+
+header button svg {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -8px;
+}
+
+header button svg {
+    fill: #92b7a6;
+}
+
+.removeLi {
+    opacity: 0;
+}
+
+.todo-container {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+.div-todoText {
+    width: 70%;
+    float: left;
+}
+.todo {
+    width: 100%;
+    float: left;
+}
+.noFill {
+    fill: none;
+}
+li {
+    width: 100%;
+    float: left;
+    min-height: 50px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500px;
+    color: #444;
+    line-height: 22px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.10);
+    margin-bottom: 10px;
+    position: relative;
+    padding: 14px 100px 14px 14px;
+    transition: opacity 0.3s;*/
+}
+li:hover {
+    box-shadow: 0px 1px 4px rgba(44, 62, 80, 0.50);
+    border: 1px solid rgba(86, 170, 255, 0.50);
+}
+li:last-child {
+    margin: 0;
+}
+
+.div-todoButtons {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.todoButtons {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: none;
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+}
+.div-todoButtons :last-child::before {
+    content: "";
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background-color: #edf0f1;
+}
+.div-todoButtons button svg {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -11px 0 0 -11px;
+}
+.div-todoButtons button svg .fill {
+    transition: fill 0.2s ease;
+}
+
+.button-delete svg .fill {
+    fill: #c0cecb;
+}
+
+.button-delete:hover svg .fill {
+    fill: #e85656
+}
+
+.button-done svg {
+    border-radius: 11px;
+    border: 1.5px solid #92b7a6;
+    transition: fill 0.2s ease;
+}
+
+.button-done svg .fill {
+    fill: #92b7a6;
+}
+
+.button-done:hover svg {
+    background-color: rgba(146, 183, 166, 0.75);
+}
+
+.button-done:hover svg .fill {
+    fill: #fff;
+}
+.ul-doneTodo .button-done svg {
+    background-color: #92b7a6;
+    border: 0px;
+}
+
+.ul-doneTodo .button-done svg .fill {
+    fill: #fff;
+}
+
+.ul-doneTodo {
+    position: relative;
+    padding: 60px 0 0 0;
+}
+
+.ul-doneTodo::before {
+    width: 150px;
+    height: 1px;
+    background-color: #d8e5e0;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: 50%;
+    margin: 0 0 0 -75px;
+}
+
+#id-ul-doneTodo:empty:after {
+    content: "你还没有完成任何事项";
+}
+
+#id-ul-allTodo:empty:after {
+    content: "你还没有添加任何事项";
+    margin: 15px 0 0 0;
+}
+
+#id-ul-allTodo:after, #id-ul-doneTodo:after {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+}
