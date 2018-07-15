@@ -1,12 +1,12 @@
 # practice
 
-### todolist
+## todolist
 
-![](./todoList./todoList.gif)
+![](todoList./todoList.gif)
 ![](todoList2.gif)
 
 
-### 照片墙
+## 照片墙
 利用cearte-react-app完成
 
 项目运行
